@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dino Game</title>
+	<!-- HOSTED -->
+	<link
+		href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800'
+		rel='stylesheet' type='text/css'>
+	<link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+	<!-- LOCAL -->
+	<script language="javascript" type="text/javascript" src="DinoGame/libraries/p5.min.js"></script>
+	<script language="javascript" type="text/javascript" src="DinoGame/libraries/p5.dom.js"></script>
+	<script language="javascript" type="text/javascript" src="DinoGame/libraries/p5.sound.js"></script>
+
+	<link rel="stylesheet" href="./styles/dinogame.css?cb=1641888111005">
+</head>
+
+<body>
+	<div class="overflow-wrap">
+		<section id="about">
+			<div class="container flex">
+				<div class="header waypoint" data-animation="slide-in-left">Dino Game</div>
+				<div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
+				<!-- <div class="skills-wrapper flex row-gt-sm"> -->
+				<div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+					<div class="platform-info bold">
+						Platform: p5.js <br>
+						Algorithm: Genetic Algorithm <br><br>
+					</div>
+				</div>
+				<div>
+					Each Generation contains 500 players. Each player controls
+					a dinosaur. The players who do the best,
+					live on to reproduce and the same thing for next generations
+					and rinse and repeat until you have a bloody beast.
+				</div>
+				<div id="pt" class="canvas"></div>
+				<!-- </div> -->
+			</div>
+		</section>
+
+		<footer>
+			<!-- <i class="mdi mdi-chevron-double-up page-link" dest="about"></i> -->
+
+			<div class="icon-wrap flex row">
+				<a href="https://www.linkedin.com/in/JawadAsif">
+					<div class="flex icon" id="icon-2">
+						<i class="mdi mdi-linkedin"></i>
+					</div>
+				</a>
+				<a href="http://github.com/JawadAsif">
+					<div class="flex icon" id="icon-5">
+						<i class="mdi mdi-github-box"></i>
+					</div>
+				</a>
+			</div>
+		</footer>
+
+	</div>
+	<!-- <script language="javascript" type="text/javascript" src="./scripts/index.js?cb=1641888111005" defer></script> -->
+	<script>
+		var showBestEachGen = false;
+	</script>
+	<script language="javascript" type="text/javascript" src="all.js?cb=1641888111005"></script>
+</body>
+
+</html>

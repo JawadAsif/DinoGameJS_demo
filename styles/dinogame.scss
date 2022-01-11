@@ -1,0 +1,44 @@
+@import 'base';
+
+section {
+    padding: 40px 0 70px 0;
+    color: #616161;
+    line-height: 11pt;
+    position: relative;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .header-bar {
+        margin: 25px 0 40px 0;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    section {
+        line-height: 18pt;
+        padding: 40px 0 130px 0;
+
+        .container {
+            padding: 0 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .flex-50-gt-sm {
+        -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
+        max-width: 50%;
+        max-height: 100%;
+        box-sizing: border-box;
+    }
+}

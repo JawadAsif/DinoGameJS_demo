@@ -1,0 +1,34 @@
+{
+  "name": "my_static_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JawadAsifBD/my_static_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JawadAsifBD/my_static_website.git/issues"
+  },
+  "homepage": "https://github.com/JawadAsifBD/my_static_website.git#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-replace": "^1.1.3",
+    "gulp-terser": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.3.9"
+  }
+}
