@@ -224,12 +224,12 @@ error.code = "101";
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 function preload() {
-  if (showBestEachGen) {
-    loadedBestsFromJson = loadJSON("DinoGame/examples/bestplayers.json");
-  }
-  if (loadGenFromFile) {
-    loadedGenFromJSON = loadJSON("DinoGame/examples/population (2).json");
-  }
+  // if (showBestEachGen) {
+  //   loadedBestsFromJson = loadJSON("DinoGame/examples/bestplayers.json");
+  // }
+  // if (loadGenFromFile) {
+  //   loadedGenFromJSON = loadJSON("DinoGame/examples/population (2).json");
+  // }
   // console.log(loadedJSON);
   fontRegular = loadFont('../fonts/Raleway-Regular.ttf');
   fontSemiBold = loadFont('../fonts/Raleway-SemiBold.ttf');
