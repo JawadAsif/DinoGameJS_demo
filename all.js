@@ -232,11 +232,6 @@ function preload() {
   // }
   // console.log(loadedJSON);
   fontRegular = loadFont('../fonts/Raleway-Regular.ttf');
-  fontSemiBold = loadFont('../fonts/Raleway-SemiBold.ttf');
-  fontBold = loadFont('../fonts/Raleway-Bold.ttf');
-  fontExtraBold = loadFont('../fonts/Raleway-ExtraBold.ttf');
-  fontMedium = loadFont('../fonts/Raleway-Medium.ttf');
-  fontLight = loadFont('../fonts/Raleway-Light.ttf');
   fontItalic = loadFont('../fonts/Raleway-Italic.ttf');
 }
 
