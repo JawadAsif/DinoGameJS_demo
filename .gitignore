@@ -1,5 +1,5 @@
 temp.txt
 node_modules
 dist
-styles/**/*.css*
+# styles/**/*.css*
 all.js*
