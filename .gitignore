@@ -2,4 +2,4 @@ temp.txt
 node_modules
 dist
 # styles/**/*.css*
-all.js*
+# all.js*
