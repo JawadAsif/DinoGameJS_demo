@@ -232,7 +232,7 @@ function preload() {
   // }
   // console.log(loadedJSON);
   fontRegular = loadFont('../fonts/Raleway-Regular.ttf');
-  fontItalic = loadFont('../fonts/Raleway-Italic.ttf');
+  fontBold = loadFont('../fonts/Raleway-Bold.ttf');
 }
 
 
@@ -398,9 +398,9 @@ function writeInfo() {
       // text("Teaching Dino to play automatically using Artificial Intelligence", width / 2, height - 50);
       fill('#1B242F');
       text("Teaching 'Dino' to play automatically using ", width / 2 - 88, height - 30);
-      textFont(fontItalic);
+      textFont(fontBold);
       fill('#036367');
-      text("Artificial Intelligence", width / 2 + 178, height - 30);
+      text("Artificial Intelligence", width / 2 + 190, height - 30);
 
       textFont(fontRegular);
       textAlign(RIGHT);
@@ -426,7 +426,7 @@ function writeInfo() {
       // text("Teaching Dino to play automatically using", width / 2, height - 50);
       textFont(fontRegular);
       text("Teaching 'Dino' to play automatically using ", width / 2, height - 50);
-      textFont(fontItalic);
+      textFont(fontBold);
       fill('#036367');
       text("Artificial Intelligence", width / 2, height - 30);
 
@@ -472,9 +472,9 @@ function writeInfo() {
       // text("Teaching Dino to play automatically using Artificial Intelligence", width / 2, height - 50);
       fill('#1B242F');
       text("Teaching 'Dino' to play automatically using ", width / 2 - 88, height - 30);
-      textFont(fontItalic);
+      textFont(fontBold);
       fill('#036367');
-      text("Artificial Intelligence", width / 2 + 178, height - 30);
+      text("Artificial Intelligence", width / 2 + 190, height - 30);
 
       textFont(fontRegular);
       textAlign(RIGHT);
@@ -500,7 +500,7 @@ function writeInfo() {
       // text("Teaching Dino to play automatically using", width / 2, height - 50);
       textFont(fontRegular);
       text("Teaching 'Dino' to play automatically using ", width / 2, height - 50);
-      textFont(fontItalic);
+      textFont(fontBold);
       fill('#036367');
       text("Artificial Intelligence", width / 2, height - 30);
 
